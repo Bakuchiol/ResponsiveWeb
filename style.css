@@ -50,16 +50,81 @@
 /* NAVBAR */
 .navBar {
     border: solid lime;
-    height: 60px;
+    height: 100px;
     width: 100%;
     display: flex;
 }
 .logo {
     border: solid orange;
     padding-top: 8px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 70px;
+    height: 50px;
+}
+.perScholas {
+    width: 292px;
+    height: 100%;
+}
+/* list */
+.navList {
+    border: solid violet;
+    display: flex;
+    height: 30px;
+    margin: 35px 0 0 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.list {
+    display: flex;
+    list-style: none;
+    gap: 52px;
+}
+.search {
+    margin-top: -2px;
+}
+/* hamburger */
+.hamburger {
+    border:solid salmon;
+    height: 50px;
+    margin-right: 30px;
+    text-align: center;
+    display: none;
+}
+.menu {
+    height: 100%;
+}
+.hamburger p{
+    margin-top: -10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
 
-
+/* top pics */
+.top {
+    border: solid royalblue;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.topLeft {
+    border:solid green;
+    width:50%;
+    height:75%;
+}
+.topRight{
+    border: solid yellow;
+    width:50%;
+    height:75%;
+}
+.topPic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.topDesc{
+    width: 30%;
+}
 
 
 /* MOBILE SIZE */
