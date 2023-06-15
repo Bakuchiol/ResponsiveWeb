@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* APPLY NOW PROMO TOP */
+.applyNow {
+    border: solid royalblue;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #09507C;
+    color: #fff;
+}
+.applyMid {
+    border: solid salmon;
+    display: flex;
+
+    text-align: center;
+}
+.iconRight{
+    border: solid red;
+    position: absolute;
+    width:50px;
+    height:60px;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.iconClose {
+    border: solid purple;
+    height: 50%;
+    margin: 10px 10px 0 0;
+}
+.career {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding: 10px 10px 10px 10px;
+}
+.apply {
+    background-color: rgb(254, 193, 79);
+    border: .2px solid #000;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 10px 0 0 10px;
+}
+
+/* NAVBAR */
+.navBar {
+    border: solid lime;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.logo {
+    border: solid orange;
+    padding-top: 8px;
+}
+
+
+
+
+/* MOBILE SIZE */
+@media (max-width: 414) {
+    .hamburger {
+        position: absolute;
+        right: 0;
+    }
+    .apply {
+        width: 50%;
+    }
+}
