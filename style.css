@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 /* APPLY NOW PROMO TOP */
+body {
+    background-color: #f5f5f4;
+}
 .applyNow {
     border: solid royalblue;
     height: 65px;
@@ -101,32 +104,73 @@
 }
 
 /* top pics */
-.top {
-    border: solid royalblue;
+
+h2 {
+    font-size: 30px;
+}
+.tinyTop {
+    border: solid khaki;
     display: flex;
-    width: 100%;
+}
+.tinyTop p {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+/* TESTING TESTING */
+.testing{
+    display: flex;
     height: 100vh;
 }
-.topLeft {
-    border:solid green;
-    width:50%;
-    height:75%;
+.leftTest {
+    border: solid fuchsia;
+    width: 50%;
+    height: 75vh;
+    background-image: url("https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1000x1000.jpg");
+    background-size: cover;
+    background-position: 5% 55%;
+    
 }
-.topRight{
-    border: solid yellow;
-    width:50%;
-    height:75%;
+.rightTest {
+    border: solid coral;
+    width: 50%;
+    background-image: url("https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg");
+    height: 75vh;
+    background-size: cover;
+    background-position: 5% 55%;
 }
-.topPic {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+/* test desc */
+.testDesc {
+    border: solid blue;
+    display: flex;
+    height:45vh;
+    position: absolute;
+    bottom: -55px;
 }
-.topDesc{
-    width: 30%;
+.leftTestDesc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.leftTestDiv {
+    border: solid seagreen;
+    background-color: #fff;
+    width: 75%;
+}
+.rightTestDesc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.rightTestDiv {
+    border: solid seagreen;
+    background-color: #fff;
+    width: 75%;
 }
 
 
+/* --------------------------------------------------------------MEDIA QUERIES--------------- */
 /* MOBILE SIZE */
 @media (max-width: 414) {
     .hamburger {
