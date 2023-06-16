@@ -106,15 +106,31 @@ body {
 /* top pics */
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 25px;
 }
 .tinyTop {
     border: solid khaki;
     display: flex;
 }
-.tinyTop p {
+.learner {
     margin-left: 20px;
     padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+.tinyDesc {
+    margin: 25px 0 15px 0;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.buttonDesc {
+    width: 100%;
+    height: 45px;
+    background: #fec14f;
+    border-style: none;
+    font-weight: 600;
 }
 
 
@@ -147,26 +163,18 @@ h2 {
     height:45vh;
     position: absolute;
     bottom: -55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.leftTestDesc {
+.leftTestDesc, .rightTestDesc {
     width: 50%;
     display: flex;
     justify-content: center;
 }
-.leftTestDiv {
+.leftTestDiv, .rightTestDiv {
     border: solid seagreen;
     background-color: #fff;
     width: 75%;
-}
-.rightTestDesc {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-.rightTestDiv {
-    border: solid seagreen;
-    background-color: #fff;
-    width: 75%;
+    padding: 40px;
 }
 
 
