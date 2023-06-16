@@ -64,8 +64,7 @@ body {
     border: solid orange;
     padding-top: 8px;
     float: left;
-    margin-top: 22px;
-    margin-left: 70px;
+    margin-top: 22px 0 0 70px;
     height: 50px;
 }
 .perScholas {
@@ -90,6 +89,12 @@ body {
     margin-top: -2px;
 }
 /* hamburger */
+.hamburgerGone {
+    border: solid royalblue;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
 .hamburger {
     border:solid salmon;
     height: 50px;
@@ -247,6 +252,12 @@ h1 {
     }
     .navList {
         display: none;
+    }
+    .logo {
+        margin: 0 0 0 30px;
+    }
+    .perScholas {
+        width: 230px;
     }
     .hamburger {
         display: block;
