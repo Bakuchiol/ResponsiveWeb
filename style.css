@@ -176,6 +176,53 @@ h2 {
     width: 75%;
     padding: 40px;
 }
+/* title */
+.perTitle {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    border: solid cornflowerblue;
+    width: 45%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+}
+/* video */
+.video {
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+}
+.vidPic {
+    background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen-1000x698.jpg");
+    width: 60%;
+    height: 80%;
+    background-size: cover;
+    background-position: 5% 55%;
+}
+.playButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+.playButton {
+    border: solid #54a3f7;
+    background-color: #54a3f7;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    width: 50px;
+    filter: invert(10);
+}
 
 
 /* --------------------------------------------------------------MEDIA QUERIES--------------- */
